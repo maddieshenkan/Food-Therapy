@@ -16,6 +16,11 @@ love.on("click",loveEmotion);
 function sadEmotion (){
   event.preventDefault();
   section.text(`PUTMESSAGE`);
+  var sad = $('.sad').val();
+  localStorage.clear();
+  localStorage.setItem('sad', sad)
+
+  console.log(localStorage);
 }
 
 function neutralEmotion(){
