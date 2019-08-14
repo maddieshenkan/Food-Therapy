@@ -11,18 +11,60 @@ neutral.on("click",neutralEmotion);
 happy.on("click",happyEmotion);
 love.on("click",loveEmotion);
 
+
+
 function sadEmotion (){
-  section.append(`<p>PUTMESSAGE</p>`);
+  event.preventDefault();
+  section.text(`PUTMESSAGE`);
 }
 
 function neutralEmotion(){
-  section.append(`<p>PUTMESSAGE</p>`);
+  event.preventDefault();
+  section.text(`PUTMESSAGE`);
 }
 
 function happyEmotion(){
-  section.append(`<p>PUTMESSAGE</p>`);
+  event.preventDefault();
+  section.text(`PUTMESSAGE`);
+
 }
 
 function loveEmotion(){
-  section.append(`<p>PUTMESSAGE</p>`);
+  event.preventDefault();
+  section.text(`PUTMESSAGE`);
+
+}
+
+// same thing but for the other drop down
+
+var sad2 = $('.sad2');
+var neutral2 = $('.neutral2');
+var happy2 = $('.happy2');
+var love2 = $('.love2');
+var section2 = $('.empty2');
+
+sad2.on("click", sadEmotion2);
+neutral2.on("click", neutralEmotion2);
+happy2.on("click", happyEmotion2);
+love2.on("click", loveEmotion2);
+
+function sadEmotion2 (){
+  event.preventDefault();
+  section2.text(`PUTMESSAGE`);
+}
+
+function neutralEmotion2 (){
+  event.preventDefault();
+  section2.text(`PUTMESSAGE`);
+}
+
+function happyEmotion2 (){
+  event.preventDefault();
+  section2.text(`PUTMESSAGE`);
+
+}
+
+function loveEmotion2 (){
+  event.preventDefault();
+  section2.text(`PUTMESSAGE`);
 }
