@@ -1,7 +1,7 @@
 body{
   background-image : url("https://cdn02.plentymarkets.com/epz0zx1qug71/item/images/180062/full/Kindertapete-Wolken-blau-weiss-Happy-Kids-PS-055_1.jpg");
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 350px;
+  padding-left: 350px;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
@@ -20,7 +20,7 @@ body{
 h1{
   text-align: center;
   font-size: 100px;
-  margin-top: 15spx;
+  margin-top: 15px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -29,6 +29,7 @@ h1{
 }
 h2{
   text-align: center;
+  margin-top: 0px;
   font-family: 'peach sundress ~';
   font-size: 50px;
   color: #bbdbef;
@@ -36,4 +37,118 @@ h2{
 
 .drop-down1 {
   padding
+}
+
+.class{
+  display: none;
+}
+
+svg{
+  margin:-60px;
+}
+
+img{
+  display: none;
+}
+
+button{
+  margin: 15px;
+  padding: 12px 18px;
+  border: 1px solid #bbdbef;
+  background: #bbdbef;
+  color: #bbdbef;
+  font-size: 18px;
+  border-radius: 4px;
+}
+/* making our code responsive */
+@media screen and (max-width: 360px) {
+  body{
+
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .body {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+  }
+  h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+
+}
+
+
+@media screen and (max-width: 411px) {
+
+}
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 375px) {
+  body{
+
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .body {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+  }
+  h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+
+}
+
+
+
+}
+@media screen and (max-width: 414px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 1024px) {
+
 }

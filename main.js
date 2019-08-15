@@ -136,23 +136,42 @@ function loveEmotion2 (){
 }
 // GIFS
 
-function pickGifs(){
+// function pickGifs(){
+// image
 
-//img src = "gifs/bravo.gif"
+//  var gifs= ["https://www.animatedimages.org/data/media/1103/animated-congratulation-image-0123.gif”,“https://media2.giphy.com/media/l4q7TIW8nEZYOJUf6/giphy.gif”,
+// “https://www.animatedimages.org/data/media/1103/animated-congratulation-image-0069.gif”,
+// “https://media.giphy.com/media/tHpaM2HA8fKYB89vVI/giphy.gif”,“https://media2.giphy.com/media/l2JJsgy3jxIrO94oE/source.gif”,
+// “https://media0.giphy.com/media/F0VBIHgbTl14fmPCuO/giphy.gif”,
+// “https://thumbs.gfycat.com/WellgroomedRespectfulGalapagostortoise-size_restricted.gif”,
+// “https://media3.giphy.com/media/65FrzyL3I8YMpcp6sT/giphy.gif”,
+// “https://i.pinimg.com/originals/b6/e6/4d/b6e64da9259d46bff8675f3b05803818.gif”,
+// “https://media1.giphy.com/media/20PAya23nqQp0VtDew/giphy.gif”,
+// “https://thumbs.gfycat.com/RemorsefulHeftyAsianelephant-max-1mb.gif"]
+// //
+// var allGifs = ['https://cdn.pixabay.com/photo/2016/03/07/09/34/kid-1241817_960_720.jpg','https://images.unsplash.com/photo-1503919545889-aef636e10ad4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'];
+//
+// var happy = $('.happy');
+// var picEmpty = $('.empty');
+//
+// happy.on("click", pickGifs);
+//
+// function pickGifs() {
+//     event.preventDefault();
+//     var random = Math.random() * allGifs.length;
+//     var rounded = Math.floor(random);
+//     var randGif = allGifs[rounded]
+//     $('.empty').prepend("<img src='"+randGif+"'></img>");
+// }
+// // var imgTest = $('.imgtest');
+//   var array = ["gifs/1.gif","gifs/2.gif","gifs/3.gif","gifs/4.gif"];
+//   happy.on("click", randomGif);
+//
+//   function randomGif(){
+//     imgTest.append(`
+//       <img src = "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg">
+//       `)
+//   }
 
 
- var gifs= ["https://www.animatedimages.org/data/media/1103/animated-congratulation-image-0123.gif”,“https://media2.giphy.com/media/l4q7TIW8nEZYOJUf6/giphy.gif”,
-“https://www.animatedimages.org/data/media/1103/animated-congratulation-image-0069.gif”,
-“https://media.giphy.com/media/tHpaM2HA8fKYB89vVI/giphy.gif”,“https://media2.giphy.com/media/l2JJsgy3jxIrO94oE/source.gif”,
-“https://media0.giphy.com/media/F0VBIHgbTl14fmPCuO/giphy.gif”,
-“https://thumbs.gfycat.com/WellgroomedRespectfulGalapagostortoise-size_restricted.gif”,
-“https://media3.giphy.com/media/65FrzyL3I8YMpcp6sT/giphy.gif”,
-“https://i.pinimg.com/originals/b6/e6/4d/b6e64da9259d46bff8675f3b05803818.gif”,
-“https://media1.giphy.com/media/20PAya23nqQp0VtDew/giphy.gif”,
-“https://thumbs.gfycat.com/RemorsefulHeftyAsianelephant-max-1mb.gif"]
-var random = Math.random() * pickGifs.length;
- var rounded = Math.floor(random);
- var outcome = pickGifs[rounded];
- message.text(pickGifs[rounded]);
-
-}
+// }
